@@ -38,3 +38,8 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
+
+.no-viber {
+    width: 100%;
+    text-align: center;
+}
