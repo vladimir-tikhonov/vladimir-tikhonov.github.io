@@ -5,9 +5,9 @@ html {
 body {
     height: 100%;
     display: flex;
-    align-items: center;
-    font-family: Open Sans,Arial,Helvetica,sans-serif;
-    background: linear-gradient(#3ebfcf,#d3f7fc 110%) no-repeat;
+    align-items: flex-start;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    background: linear-gradient(#3ebfcf, #d3f7fc 110%) no-repeat;
     margin: 0;
 }
 
@@ -16,6 +16,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.description {
+    margin-top: 12em;
 }
 
 .open-chat-button {
